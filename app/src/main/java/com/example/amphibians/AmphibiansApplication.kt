@@ -1,8 +1,10 @@
 package com.example.amphibians
 
+import android.app.Application
+import com.example.amphibians.di.AppContainer
 
 class AmphibiansApplication : Application() {
-// App container
+    // for full app single container
     lateinit var appContainer: AppContainer
         private set
 
